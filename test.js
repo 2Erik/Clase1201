@@ -1,3 +1,5 @@
 function saludar(){
-    console.log("Hola a todos");
+    let txtNombre=document.getElementById("txtNombre");
+    let nombre=txtNombre.value;
+    console.log(nombre);
 }
