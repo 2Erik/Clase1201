@@ -5,5 +5,9 @@ function saludar(){
 }
 
 function sumar(){
-   let numero1=recuperarEntero("txtNombre");
+  
+   let num1=recuperarEntero("txtApellido");
+   let num2=recuperarEntero("txtNombre");
+   let suma=num1+num2;
+   alert(suma);
 }
