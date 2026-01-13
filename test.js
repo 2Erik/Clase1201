@@ -1,3 +1,4 @@
 function saludar(){
-    console.log("Hola a todos");
+    let nombre = recuperarTexto("txtNombre");
+    console.log(nombre);
 }
